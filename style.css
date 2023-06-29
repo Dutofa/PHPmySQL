@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    min-height: 100vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+a{
+    margin: 10px;
+    font-family: Arial;
+    font-weight: bolder;
+    color: black;
+}
+
+.firstcol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid rgb(83, 83, 83);
+}
+
+.secondcol{
+    border-right: 2px solid rgb(126, 126, 126);
+}
+
+
+
+.bluebird{
+    width: 10%;
+    height: 10%;
+}
+
+.navlogo{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlogo:hover{
+    background-color: rgb(156, 157, 158);
+}
+
+.tweet-box{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tweet-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 40px;
+    word-wrap: break-word;
+}
+
+.p-margin{
+    margin: 10px;
+}
+
+.p-h1{
+    align-self: flex-start;
+}
+
+.p-h2{
+    border-bottom: 2px solid rgb(83, 83, 83);
+}
+
+.p-date{
+    align-self: flex-end;
+}
+
+.p-contenu{
+    padding: 15px;
+    border-radius: 20px;
+    border-right: 2px solid rgb(83, 83, 83);
+    border-bottom: 2px solid rgb(83, 83, 83);
+}
+
+.text-tweet{
+    max-width: 175px;
+    word-wrap: break-word;
+}
+
+.tweet-p.red {
+    border-color: red;
+}
+.tweet-p.blue {
+    border-color: blue;
+}
+.tweet-p.green {
+    border-color: green;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(83, 83, 83);
+}
+
+.affichage-post{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post{
+    margin: 10px;
+    padding: 5px;
+    width: 75%;
+    border-radius: 20px;
+}
+
+.tweeter{
+    background-color: #00acee;
+}
+
+.tweeter:hover{
+    background-color: rgb(156, 157, 158);
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.margin-recherche{
+    margin: 25px;
+}
+
+.padding-recherche{
+    padding: 5px;
+    border-radius: 5px;
+}
